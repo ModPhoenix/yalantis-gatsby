@@ -1,0 +1,35 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+  z-index: 400;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+  height: 100%;
+  max-width: initial;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo {
+  margin: 0;
+}
+
+.hn {
+  font-size: 30px;
+  margin: 0;
+}
+
+.link {
+  color: var(--black);
+  text-decoration: none;
+  box-shadow: none;
+}

@@ -1,0 +1,11 @@
+:root {
+  --yalantis: #fa6300;
+  --h3-header: #000;
+  --grey-text: #23252c;
+  --white: white;
+  --black: black;
+}
+
+html {
+  background-color: var(--white);
+}
