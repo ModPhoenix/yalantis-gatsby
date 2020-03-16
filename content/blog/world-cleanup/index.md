@@ -1,7 +1,8 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: World Cleanup Day
+date: "2019-03-28T22:40:32.169Z"
+description: An app for the global environmental event against waste
+picture: world-cleanup.png
 ---
 
 This is my first post on my new fake blog! How exciting!

@@ -1,6 +1,8 @@
 ---
-title: My Second Post!
-date: "2015-05-06T23:46:37.121Z"
+title: Delivery Platform
+date: "2019-03-28T22:40:32.169Z"
+description: A transportation app that connects delivery providers and consumers
+picture: move-app.png
 ---
 
 Wow! I love blogging so much already.
