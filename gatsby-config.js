@@ -2,14 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Yalantis on Gatsby`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Yalantis`,
+      summary: `we help brands and businesses solve their challenges with gratifying and meaningful web and mobile solutions.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
-    social: {
-      twitter: `kylemathews`,
-    },
   },
   plugins: [
     {

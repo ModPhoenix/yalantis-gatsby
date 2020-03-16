@@ -6,29 +6,21 @@ import styles from "./header.module.css"
 
 const Header = ({ location, title }) => {
   const rootPath = `${__PATH_PREFIX__}/`
-  let header
+  let HeaderElement = "h1"
 
-  if (location.pathname === rootPath) {
-    header = (
-      <h1 className={styles.hn}>
-        <Link className={styles.link} to={`/`}>
-          <img className={styles.logo} src={logoDark} alt="Logo" /> on Gatsby
-        </Link>
-      </h1>
-    )
-  } else {
-    header = (
-      <h3 className={styles.hn}>
-        <Link className={styles.link} to={`/`}>
-          <img className={styles.logo} src={logoDark} alt="Logo" /> on Gatsby
-        </Link>
-      </h3>
-    )
+  if (location.pathname !== rootPath) {
+    HeaderElement = "h3"
   }
 
   return (
     <header className={styles.header}>
-      <div className={styles.container}>{header}</div>
+      <div className={styles.container}>
+        <HeaderElement className={styles.hn}>
+          <Link className={styles.link} to={`/`}>
+            <img className={styles.logo} src={logoDark} alt="Logo" /> on Gatsby
+          </Link>
+        </HeaderElement>
+      </div>
     </header>
   )
 }
